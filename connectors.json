@@ -1,0 +1,13 @@
+{
+  "connectors": [
+    {
+      "ID": "con1",
+      "caller": "/Frodo/AZ/Temperature",
+      "receiver": "console",
+      "method": "textout"
+    }
+
+
+
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "callers":[
+      {
+        "name": "AZTest",
+        "type": "MQTT",
+        "label": "Temperatur Arbeitszimmer",
+        "ID": "/Frodo/AZ/Temperature",
+        "unit": "°C",
+        "state": "init",
+        "Parameters": [
+          {
+            "intervall": 60
+          }
+        ]
+      },
+      {
+        "name": "WebTest",
+        "type": "Webcall",
+        "label": "Test für webcalls",
+        "ID": "/Web/call1",
+        "Parameters": [
+          {
+
+          }
+        ]
+      },
+      {
+        "name": "console",
+        "type": "local_console",
+        "label": "COnsole",
+        "ID": "/local/console",
+        "state": "init",
+        "Parameters": [
+          {
+
+          }
+        ]
+      }
+
+]
+
+}

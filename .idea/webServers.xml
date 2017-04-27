@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3395f55c-9023-43ff-a8f4-c12295f8f313" name="kortirion" url="http://192.168.1.148:3000">
+        <fileTransfer host="192.168.1.148" port="22" rootFolder="/var/www/webdev/Projects/switchboard" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
